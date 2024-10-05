@@ -2,13 +2,13 @@
 import { DataSource } from 'typeorm';
 
 export const AppDataSource = new DataSource({
-  type: 'mysql', // Cambiado a 'mysql'
-  host: 'localhost', // Cambia si tu host es diferente
-  port: 3306, // Puerto predeterminado de MySQL
-  username: 'root', // Tu usuario de MySQL
-  password: '', // Tu contraseña de MySQL
-  database: 'practica', // El nombre de tu base de datos
-  synchronize: true, // True en desarrollo (genera tablas automáticamente)
+  type: 'mysql', 
+  host: 'localhost', 
+  port: 3306, 
+  username: 'root', 
+  password: '', 
+  database: 'practica', 
+  synchronize: true, 
   logging: false,
   entities: [__dirname + '/entities/*.ts'],
   migrations: [],
