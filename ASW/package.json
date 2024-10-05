@@ -1,0 +1,25 @@
+{
+  "name": "aplicacionesservidorweb",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000A\u0000p\u0000l\u0000i\u0000c\u0000a\u0000c\u0000i\u0000o\u0000n\u0000e\u0000s\u0000S\u0000e\u0000r\u0000v\u0000i\u0000d\u0000o\u0000r\u0000W\u0000e\u0000b\u0000\r\u0000 \u0000#\u0000 \u0000A\u0000p\u0000l\u0000i\u0000c\u0000a\u0000c\u0000i\u0000o\u0000n\u0000e\u0000s\u0000S\u0000e\u0000r\u0000v\u0000i\u0000d\u0000o\u0000r\u0000W\u0000e\u0000b\u0000\r\u0000 \u0000#\u0000 \u0000P\u0000r\u0000i\u0000m\u0000e\u0000r\u0000a\u0000 \u0000P\u0000r\u0000a\u0000c\u0000t\u0000i\u0000c\u0000a\u0000 \u0000y\u0000 \u0000T\u0000a\u0000r\u0000e\u0000a\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --clear src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  }
+}
